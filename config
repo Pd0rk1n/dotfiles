@@ -1,0 +1,3 @@
+git remote add origin https://github.com/Pd0rk1n/dotfiles.git
+git branch -M main
+git push -u origin main
