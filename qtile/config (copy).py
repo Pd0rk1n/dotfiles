@@ -244,18 +244,18 @@ layouts = [
 ]
 
 # COLORS FOR THE BAR
-#Theme name : ArcoLinux Dracula
+#Theme name : ArcoLinux Default
 def init_colors():
-    return [["#000000", "#000000"], # color 0
-            ["#282A36", "#282A36"], # color 1
-            ["#F8F8F2", "#F8F8F2"], # color 2
-            ["#F1FA8C", "#F1FA8C"], # color 3
-            ["#BD93F9", "#BD93F9"], # color 4
-            ["#FF79C6", "#FF79C6"], # color 5
-            ["#8BE9FD", "#8BE9FD"], # color 6
-            ["#BFBFBF", "#BFBFBF"], # color 7
-            ["#4D4D4D", "#4D4D4D"], # color 8
-            ["#FF5555", "#FF5555"]] # color 9
+    return [["#2F343F", "#2F343F"], # color 0
+            ["#2F343F", "#2F343F"], # color 1
+            ["#c0c5ce", "#c0c5ce"], # color 2
+            ["#fba922", "#fba922"], # color 3
+            ["#3384d0", "#3384d0"], # color 4
+            ["#f3f4f5", "#f3f4f5"], # color 5
+            ["#cd1f3f", "#cd1f3f"], # color 6
+            ["#62FF00", "#62FF00"], # color 7
+            ["#6790eb", "#6790eb"], # color 8
+            ["#a9a9a9", "#a9a9a9"]] # color 9
 
 
 colors = init_colors()
