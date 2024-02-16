@@ -6,9 +6,9 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-# Firefox
+# Vivaldi
 super + F1
-	firefox
+	vivaldi-stable
 
 # Atom
 super + F2
@@ -82,9 +82,13 @@ super + ctrl + c
 super + x
     archlinux-logout
 
+#powermenu
+super + shift + x
+    arcolinux-powermenu
+
 #Rofi theme selector
-#super + r
-#    rofi-theme-selector
+super + r
+    rofi-theme-selector
 
 #Urxvt
 super + t
@@ -98,9 +102,9 @@ super + v
 super + m
     lollypop
 
-# Terminator
+#alacritty
 super + Return
-    terminator
+    alacritty
 
 #Xkill
 super + Escape
@@ -117,7 +121,7 @@ super + KP_Enter
 
 #File-Manager
 super + shift + Return
-	nemo
+	thunar
 
 #Keyboard dependent
 #File-Manager
@@ -125,11 +129,11 @@ super + shift + Return
 #	thunar
 
 #dmenu
-super + d
+super + shift + d
 	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
     
 #dmenu
-super + r
+super + d
     rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/qtile/rofi/launcher2.rasi
 
 #reload sxhkd:
@@ -385,14 +389,6 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
     xbacklight -dec 10
 
-#########################
-#        POLYBAR        #
-#########################
-
-# Qtile has its own bar
-#Hide polybar
-#super + y
-#    polybar-msg cmd toggle
 
 
 #################################################################
@@ -410,99 +406,11 @@ ctrl + alt + o
     ~/.config/qtile/scripts/picom-toggle.sh
 
 #################################################################
-# SUPER + KEYS
-#################################################################
-
-#Toggle fullscreen of window
-#super + f
-#    qtile-cmd -o window -f toggle_fullscreen
-
-# normalize layout (undo size changes)
-#super + n
-#    qtile-cmd -o layout -f normalize
-
-#kill
-#super + q
-#    qtile-cmd -o window -f kill
-
-# Foucs WINDOW (Navigate)
-#super + {Left,Down,Up,Right}
-#    qtile-cmd -o layout -f {left,down,up,right}
-
-# Foucs WINDOW (Navigate)
-#super + {h,j,k,l}
-#    qtile-cmd -o layout -f {left,down,up,right}
-
-#################################################################
-# SUPER KEYS
-#################################################################
-
-#Focus selected desktop
-#super + Tab
-#    qtile-cmd -o screen -f next_group
-
-# set the window state
-#super + space
-#    qtile-cmd -o cmd -f next_layout
-
-
-#################################################################
 # SUPER + SHIFT KEYS
 #################################################################
-
-#kill
-#super + shift + q
-#    qtile-cmd -o window -f kill
-
-#Quit Qtile
-#super + shift + x
-#    qtile-cmd -o cmd -f shutdown
-
-# FLIP LAYOUT FOR MONADTALL/MONADWIDE
-#super + shift + f
-#    qtile-cmd -o layout -f flip
-
-# MOVE WINDOWS UP OR DOWN BSP LAYOUT
-
-#super + shift + {h,j,k,l}
-#    qtile-cmd -o layout -f {shuffle_left,shuffle_down,shuffle_up,shuffle_right}
-
-# MOVE WINDOWS UP OR DOWN MONADTALL/MONADWIDE LAYOUT
-
-#super + shift + {Up,Down,Left,Right}
-#    qtile-cmd -o layout -f {shuffle_up,shuffle_down,swap_left,swap_right}
-
-# TOGGLE FLOATING LAYOUT
-#super + shift + space
-#    qtile-cmd -o window -f toggle_floating
-
-#Reload Qtile
-#super + shift + r
-#    qtile-cmd -o cmd -f restart
 
 
 #################################################################
 # SUPER + ALT KEYS
 #################################################################
 
-# FLIP LAYOUT FOR BSP
-
-#super + alt + {h,j,k,l}
-#    qtile-cmd -o layout -f {flip_left,flip_down,flip_up,flip_right}
-
-
-##################################
-## The RESIZE KEYS ARE RESERVED ##
-##  ~/.config/qtile/config.py   ##
-##      Lines 191 - 235         ##
-##################################
-## RESIZE UP, DOWN, LEFT, RIGHT ##
-#super + control + l
-#super + control + Right
-#super + control + h
-#super + control + Left
-#super + control + k
-#super + control + Up
-#super + control + j
-#super + control + Down
-##################################
