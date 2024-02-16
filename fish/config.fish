@@ -192,8 +192,8 @@ end
 
 #list
 alias ls="ls --color=auto"
-alias la="ls -a"
-alias ll="ls -alFh"
+alias la="exa -a --icons --color=always --group-directories-first"
+alias ll="exa -lag --icons --color=always --group-directories-first --octal-permissions"
 alias l="ls"
 alias l.="ls -A | egrep '^\.'"
 alias listdir="ls -d */ > list"
