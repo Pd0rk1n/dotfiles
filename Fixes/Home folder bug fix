@@ -24,3 +24,8 @@ xfce4-panel --quit ; pkill xfconfd ; rm -rf ~/.config/xfce4/panel ~/.config/xfce
 
 
        /usr/share/sddm/themes/arcolinux-simplicity/images
+
+
+
+NoExtract = usr/lib/xorg/modules/drivers/intel_drv.so
+
