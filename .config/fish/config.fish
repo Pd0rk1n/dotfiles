@@ -547,4 +547,10 @@ set fish_pager_color_progress brwhite --background=cyan
 set fish_color_search_match --background="#60AEFF"
 
 
+alias fixtray="/home/pd0rk1n/.local/bin/restart-tray-apps.sh"
+
+
+
+
+
 neofetch
