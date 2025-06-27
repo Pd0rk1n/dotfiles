@@ -1,3 +1,29 @@
-2025/06/21-15:46:07.011 205c Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2025/06/21-15:46:07.013 205c Recovering log #2206
-2025/06/21-15:46:07.026 205c Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002206.log 
+2025/06/26-23:04:54.895 8076 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2025/06/26-23:04:54.897 8076 Recovering log #2206
+2025/06/26-23:04:54.915 8076 Level-0 table #2208: started
+2025/06/26-23:04:54.948 8076 Level-0 table #2208: 236027 bytes OK
+2025/06/26-23:04:54.948 8076 Recovering log #2217
+2025/06/26-23:04:54.960 8076 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002217.log 
+2025/06/26-23:04:54.968 8076 Delete type=2 #2220
+2025/06/26-23:04:54.969 8076 Delete type=0 #2206
+2025/06/26-23:15:55.691 8062 Compacting 2@0 + 0@1 files
+2025/06/26-23:15:55.717 8062 Generated table #2218@0: 20 keys, 118777 bytes
+2025/06/26-23:15:55.717 8062 Compacted 2@0 + 0@1 files => 118777 bytes
+2025/06/26-23:15:55.722 8062 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/26-23:15:55.722 8062 Delete type=2 #2205
+2025/06/26-23:15:55.722 8062 Delete type=2 #2208
+2025/06/26-23:40:56.312 8062 Compacting 1@1 + 1@2 files
+2025/06/26-23:40:56.324 8062 Generated table #2219@1: 7 keys, 118475 bytes
+2025/06/26-23:40:56.324 8062 Compacted 1@1 + 1@2 files => 118475 bytes
+2025/06/26-23:40:56.362 8062 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/26-23:40:56.363 8062 Delete type=2 #2218
+2025/06/26-23:40:56.363 8062 Delete type=2 #2203
+2025/06/27-00:34:57.793 8061 Level-0 table #2221: started
+2025/06/27-00:34:57.822 8061 Level-0 table #2221: 481351 bytes OK
+2025/06/27-00:34:57.835 8061 Delete type=0 #2217
+2025/06/27-00:58:58.126 8061 Compacting 1@1 + 1@2 files
+2025/06/27-00:58:58.137 8061 Generated table #2222@1: 6 keys, 118178 bytes
+2025/06/27-00:58:58.137 8061 Compacted 1@1 + 1@2 files => 118178 bytes
+2025/06/27-00:58:58.151 8061 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/27-00:58:58.151 8061 Delete type=2 #2221
+2025/06/27-00:58:58.151 8061 Delete type=2 #2219

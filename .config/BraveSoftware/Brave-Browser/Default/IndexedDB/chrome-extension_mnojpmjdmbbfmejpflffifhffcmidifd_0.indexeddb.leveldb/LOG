@@ -1,3 +1,14 @@
-2025/06/21-15:46:07.148 205b Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_mnojpmjdmbbfmejpflffifhffcmidifd_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/21-15:46:07.148 205b Recovering log #99
-2025/06/21-15:46:07.174 205b Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_mnojpmjdmbbfmejpflffifhffcmidifd_0.indexeddb.leveldb/000099.log 
+2025/06/26-23:04:54.999 8063 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_mnojpmjdmbbfmejpflffifhffcmidifd_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/26-23:04:55.000 8063 Recovering log #99
+2025/06/26-23:04:55.040 8063 Level-0 table #102: started
+2025/06/26-23:04:55.076 8063 Level-0 table #102: 675346 bytes OK
+2025/06/26-23:04:55.078 8063 Recovering log #102
+2025/06/26-23:04:55.081 8063 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_mnojpmjdmbbfmejpflffifhffcmidifd_0.indexeddb.leveldb/000102.log 
+2025/06/26-23:04:55.090 8063 Delete type=0 #99
+2025/06/27-01:14:45.792 8063 Compacting 2@0 + 1@1 files
+2025/06/27-01:14:45.809 8063 Generated table #103@0: 1254 keys, 18633 bytes
+2025/06/27-01:14:45.809 8063 Compacted 2@0 + 1@1 files => 18633 bytes
+2025/06/27-01:14:45.814 8063 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/27-01:14:45.815 8063 Delete type=2 #97
+2025/06/27-01:14:45.815 8063 Delete type=2 #100
+2025/06/27-01:14:45.815 8063 Delete type=2 #102

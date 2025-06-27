@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "21915661-40dd-4843-ba05-bbf5f99d092b",
+      "logo": {
+        "imageUrl": "7587145c-ff4d-4611-8f02-903eb5fa4917/fdf8df9a-614a-4f78-be8c-845987638ca8.png",
+        "destinationUrl": "https://www.midnight.gd/",
+        "alt": "Midnight - Token distribution that's designed to be fair, inclusive and equitable. #breakfree from status quo tokennomics.",
+        "companyName": "Midnight"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "7587145c-ff4d-4611-8f02-903eb5fa4917/c2c078b0-3386-4b01-ab3d-c5b13776269a.jpg",
+          "creativeInstanceId": "23ebbb0b-94d5-476c-8563-8385debff150",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "cf2f7855-2dbb-446b-8c70-bbc51cb6a1c0/9369e703-b8c8-4650-9a7f-484baa5328ff.jpg",
+          "creativeInstanceId": "7ba27a9f-360b-4ff9-8619-df0f7414b461",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "cf2f7855-2dbb-446b-8c70-bbc51cb6a1c0/fdf8df9a-614a-4f78-be8c-845987638ca8.png",
+            "destinationUrl": "https://www.midnight.gd/",
+            "alt": "Midnight - Token distribution that's designed to be fair, inclusive and equitable. #breakfree from status quo tokennomics.",
+            "companyName": "Midnight"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "21915661-40dd-4843-ba05-bbf5f99d092b",
+      "logo": {
+        "imageUrl": "7587145c-ff4d-4611-8f02-903eb5fa4917/fdf8df9a-614a-4f78-be8c-845987638ca8.png",
+        "destinationUrl": "https://www.midnight.gd/",
+        "alt": "Midnight - Token distribution that's designed to be fair, inclusive and equitable. #breakfree from status quo tokennomics.",
+        "companyName": "Midnight"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "7587145c-ff4d-4611-8f02-903eb5fa4917/c2c078b0-3386-4b01-ab3d-c5b13776269a.jpg",
+          "creativeInstanceId": "23ebbb0b-94d5-476c-8563-8385debff150",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "cf2f7855-2dbb-446b-8c70-bbc51cb6a1c0/9369e703-b8c8-4650-9a7f-484baa5328ff.jpg",
+          "creativeInstanceId": "7ba27a9f-360b-4ff9-8619-df0f7414b461",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "cf2f7855-2dbb-446b-8c70-bbc51cb6a1c0/fdf8df9a-614a-4f78-be8c-845987638ca8.png",
+            "destinationUrl": "https://www.midnight.gd/",
+            "alt": "Midnight - Token distribution that's designed to be fair, inclusive and equitable. #breakfree from status quo tokennomics.",
+            "companyName": "Midnight"
+          }
+        }
+      ]
+    }
+  ]
+}
