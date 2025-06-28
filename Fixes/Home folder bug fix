@@ -29,3 +29,8 @@ xfce4-panel --quit ; pkill xfconfd ; rm -rf ~/.config/xfce4/panel ~/.config/xfce
 
 NoExtract = usr/lib/xorg/modules/drivers/intel_drv.so
 
+
+
+
+     yay -S dracula-gtk-theme dracula-icons-git dracula-cursors-git
+
