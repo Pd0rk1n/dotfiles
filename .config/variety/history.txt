@@ -1,4 +1,8 @@
 0
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-mdeo68.jpg
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-3lo8q3.png
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-1pww8g.png
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6qvdx6.jpg
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-732xjy.png
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-xll8ov.jpg
@@ -95,7 +99,3 @@
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dpxmk3.jpg
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-q213e5.png
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-7335xy.jpg
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-xly1el.png
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-6q98kw.png
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-85m7go.png
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-wexo3x.jpg
