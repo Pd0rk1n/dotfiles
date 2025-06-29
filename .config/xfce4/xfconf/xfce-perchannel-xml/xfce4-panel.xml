@@ -120,21 +120,27 @@
       <property name="position-search-alternate" type="bool" value="true"/>
       <property name="position-commands-alternate" type="bool" value="true"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
-      <property name="menu-width" type="int" value="410"/>
-      <property name="menu-height" type="int" value="600"/>
+      <property name="menu-width" type="int" value="457"/>
+      <property name="menu-height" type="int" value="567"/>
       <property name="menu-opacity" type="int" value="80"/>
       <property name="command-lockscreen" type="string" value="archlinux-logout"/>
       <property name="command-switchuser" type="string" value="xfce4-session-logout -u"/>
       <property name="show-command-switchuser" type="bool" value="true"/>
       <property name="favorites" type="array">
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="thunar.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="nemo.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="archlinux-betterlockscreen.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
       <property name="recent" type="array">
         <value type="string" value="nemo.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="ulauncher.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
+        <value type="string" value="ca.desrt.dconf-editor.desktop"/>
+        <value type="string" value="firefox.desktop"/>
       </property>
       <property name="search-actions" type="int" value="7">
         <property name="action-0" type="empty">

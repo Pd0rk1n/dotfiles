@@ -1,32 +1,6 @@
-2025/06/26-23:04:53.861 4 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2025/06/26-23:04:53.875 4 Recovering log #1866
-2025/06/26-23:04:53.875 4 Level-0 table #1869: started
-2025/06/26-23:04:53.884 4 Level-0 table #1869: 4089 bytes OK
-2025/06/26-23:04:53.884 4 Recovering log #1890
-2025/06/26-23:04:53.884 4 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001890.log 
-2025/06/26-23:04:53.901 4 Delete type=2 #1891
-2025/06/26-23:04:53.901 4 Delete type=0 #1866
-2025/06/27-05:29:35.483 5 Level-0 table #1892: started
-2025/06/27-05:29:35.499 5 Level-0 table #1892: 30368 bytes OK
-2025/06/27-05:29:35.505 5 Delete type=0 #1890
-2025/06/27-05:37:20.631 5 Level-0 table #1894: started
-2025/06/27-05:37:20.642 5 Level-0 table #1894: 21148 bytes OK
-2025/06/27-05:37:20.648 5 Delete type=0 #1891
-2025/06/27-05:37:20.649 5 Compacting 4@0 + 1@1 files
-2025/06/27-05:37:20.698 5 Generated table #1895@0: 1001 keys, 2334202 bytes
-2025/06/27-05:37:20.699 5 Compacted 4@0 + 1@1 files => 2334202 bytes
-2025/06/27-05:37:20.704 5 compacted to: files[ 0 2 0 0 0 0 0 ]
-2025/06/27-05:37:20.705 5 Delete type=2 #1867
-2025/06/27-05:37:20.705 5 Delete type=2 #1892
-2025/06/27-05:37:20.705 5 Delete type=2 #1869
-2025/06/27-05:37:20.705 5 Delete type=2 #1894
-2025/06/27-05:37:20.705 5 Delete type=2 #1863
-2025/06/27-05:39:46.355 5 Level-0 table #1897: started
-2025/06/27-05:39:46.364 5 Level-0 table #1897: 17805 bytes OK
-2025/06/27-05:39:46.371 5 Delete type=0 #1893
-2025/06/27-05:40:29.237 5 Level-0 table #1899: started
-2025/06/27-05:40:29.248 5 Level-0 table #1899: 21758 bytes OK
-2025/06/27-05:40:29.255 5 Delete type=0 #1896
-2025/06/27-05:56:56.313 5 Level-0 table #1901: started
-2025/06/27-05:56:56.323 5 Level-0 table #1901: 23948 bytes OK
-2025/06/27-05:56:56.331 5 Delete type=0 #1898
+2025/06/28-20:29:35.582 4 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/06/28-20:29:35.597 4 Recovering log #1908
+2025/06/28-20:29:35.600 4 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001908.log 
+2025/06/28-21:09:10.054 4 Level-0 table #1912: started
+2025/06/28-21:09:10.057 4 Level-0 table #1912: 30617 bytes OK
+2025/06/28-21:09:10.060 4 Delete type=0 #1908

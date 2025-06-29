@@ -1,202 +1,1382 @@
-INFO: 2025-06-27 22:41:36,027: main() 'Using profile folder /home/pd0rk1n/.config/variety/'
-INFO: 2025-06-27 22:41:36,030: perform_upgrade() 'Last run version was 0.8.13 or earlier, current version is 0.8.13'
-INFO: 2025-06-27 22:41:36,035: process_command() 'Received command: ['--profile', '/home/pd0rk1n/.config/variety/']'
-INFO: 2025-06-27 22:41:36,037: start() 'Using data_path /usr/share/variety'
-INFO: 2025-06-27 22:41:36,037: load() 'Jumble loading'
-INFO: 2025-06-27 22:41:36,037: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/__init__.py'
-INFO: 2025-06-27 22:41:36,039: _walk_modules() 'Jumble loading module in ArtStationDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
-INFO: 2025-06-27 22:41:36,040: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
-INFO: 2025-06-27 22:41:36,041: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
-INFO: 2025-06-27 22:41:36,043: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,043: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
-INFO: 2025-06-27 22:41:36,044: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
-INFO: 2025-06-27 22:41:36,044: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
-INFO: 2025-06-27 22:41:36,046: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,046: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
-INFO: 2025-06-27 22:41:36,047: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,047: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
-INFO: 2025-06-27 22:41:36,047: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
-INFO: 2025-06-27 22:41:36,048: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,048: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
-INFO: 2025-06-27 22:41:36,049: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,049: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
-INFO: 2025-06-27 22:41:36,050: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,050: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/__init__.py'
-INFO: 2025-06-27 22:41:36,050: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
-INFO: 2025-06-27 22:41:36,051: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,051: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
-INFO: 2025-06-27 22:41:36,052: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,052: _walk_modules() 'Jumble loading module in ArtStationSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
-INFO: 2025-06-27 22:41:36,053: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,053: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
-INFO: 2025-06-27 22:41:36,054: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,054: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
-INFO: 2025-06-27 22:41:36,055: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,056: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
-INFO: 2025-06-27 22:41:36,056: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: /home/pd0rk1n/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,056: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
-INFO: 2025-06-27 22:41:36,057: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,057: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/__init__.py'
-INFO: 2025-06-27 22:41:36,057: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
-INFO: 2025-06-27 22:41:36,097: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,098: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
-INFO: 2025-06-27 22:41:36,098: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2025-06-27 22:41:36,099: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
-INFO: 2025-06-27 22:41:36,100: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2025-06-27 22:41:36,100: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
-INFO: 2025-06-27 22:41:36,101: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2025-06-27 22:41:36,101: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
-INFO: 2025-06-27 22:41:36,102: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2025-06-27 22:41:36,102: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/__init__.py'
-INFO: 2025-06-27 22:41:36,121: reload_config() 'Creating new downloader for type wallhaven, location space'
-INFO: 2025-06-27 22:41:36,121: reload_config() 'Creating new downloader for type wallhaven, location minimal'
-INFO: 2025-06-27 22:41:36,121: reload_config() 'Creating new downloader for type wallhaven, location scifi'
-INFO: 2025-06-27 22:41:36,121: reload_config() 'Creating new downloader for type wallhaven, location simple'
-INFO: 2025-06-27 22:41:36,121: reload_config() 'Creating new downloader for type wallhaven, location abstract'
-INFO: 2025-06-27 22:41:36,123: log_options() 'Loaded options:'
-INFO: 2025-06-27 22:41:36,123: log_options() 'change_enabled = True'
-INFO: 2025-06-27 22:41:36,123: log_options() 'change_interval = 600'
-INFO: 2025-06-27 22:41:36,123: log_options() 'change_on_start = True'
-INFO: 2025-06-27 22:41:36,123: log_options() 'clipboard_enabled = False'
-INFO: 2025-06-27 22:41:36,123: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
-INFO: 2025-06-27 22:41:36,123: log_options() 'clipboard_use_whitelist = True'
-INFO: 2025-06-27 22:41:36,123: log_options() 'clock_date_font = Serif 30'
-INFO: 2025-06-27 22:41:36,123: log_options() 'clock_enabled = False'
-INFO: 2025-06-27 22:41:36,123: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
-INFO: 2025-06-27 22:41:36,123: log_options() 'clock_font = Serif 70'
-INFO: 2025-06-27 22:41:36,123: log_options() 'configfile = /home/pd0rk1n/.config/variety/variety.conf'
-INFO: 2025-06-27 22:41:36,123: log_options() 'copyto_enabled = False'
-INFO: 2025-06-27 22:41:36,123: log_options() 'copyto_folder = Default'
-INFO: 2025-06-27 22:41:36,123: log_options() 'desired_color = [160, 160, 160]'
-INFO: 2025-06-27 22:41:36,123: log_options() 'desired_color_enabled = False'
-INFO: 2025-06-27 22:41:36,123: log_options() 'download_folder = /home/pd0rk1n/.config/variety/Downloaded'
-INFO: 2025-06-27 22:41:36,123: log_options() 'download_preference_ratio = 0.9'
-INFO: 2025-06-27 22:41:36,123: log_options() 'favorites_folder = /home/pd0rk1n/.config/variety/Favorites'
-INFO: 2025-06-27 22:41:36,123: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
-INFO: 2025-06-27 22:41:36,123: log_options() 'fetched_folder = /home/pd0rk1n/.config/variety/Fetched'
-INFO: 2025-06-27 22:41:36,123: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
-INFO: 2025-06-27 22:41:36,124: log_options() 'get_wallpaper_script = /home/pd0rk1n/.config/variety/scripts/get_wallpaper_arco'
-INFO: 2025-06-27 22:41:36,124: log_options() 'icon = Light'
-INFO: 2025-06-27 22:41:36,124: log_options() 'internet_enabled = True'
-INFO: 2025-06-27 22:41:36,124: log_options() 'lightness_enabled = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'lightness_mode = 0'
-INFO: 2025-06-27 22:41:36,124: log_options() 'min_rating = 4'
-INFO: 2025-06-27 22:41:36,124: log_options() 'min_rating_enabled = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'min_size = 80'
-INFO: 2025-06-27 22:41:36,124: log_options() 'min_size_enabled = True'
-INFO: 2025-06-27 22:41:36,124: log_options() 'name_regex = .*'
-INFO: 2025-06-27 22:41:36,124: log_options() 'name_regex_enabled = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quota_enabled = True'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quota_size = 1000'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_authors = '
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_bg_color = [80, 80, 80]'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_bg_opacity = 55'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_change_enabled = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_change_interval = 300'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_enabled = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_favorites_file = /home/pd0rk1n/.config/variety/favorite_quotes.txt'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_font = Serif 30'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_hpos = 100'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_max_length = 250'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_tags = '
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_text_color = [255, 255, 255]'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_text_shadow = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_vpos = 40'
-INFO: 2025-06-27 22:41:36,124: log_options() 'quotes_width = 70'
-INFO: 2025-06-27 22:41:36,124: log_options() 'safe_mode = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'set_wallpaper_script = /home/pd0rk1n/.config/variety/scripts/set_wallpaper_arco'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_custom_enabled = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_custom_folder = /home/pd0rk1n/Pictures'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_downloads_enabled = False'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_fade = 0.4'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_favorites_enabled = True'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_mode = Fullscreen'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_monitor = All'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_pan = 0.05'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_seconds = 6.0'
-INFO: 2025-06-27 22:41:36,124: log_options() 'slideshow_sort_order = Random'
-INFO: 2025-06-27 22:41:36,125: log_options() 'slideshow_sources_enabled = True'
-INFO: 2025-06-27 22:41:36,125: log_options() 'slideshow_zoom = 0.2'
-INFO: 2025-06-27 22:41:36,125: log_options() 'smart_enabled = False'
-INFO: 2025-06-27 22:41:36,125: log_options() 'smart_notice_shown = False'
-INFO: 2025-06-27 22:41:36,125: log_options() 'smart_register_shown = False'
-INFO: 2025-06-27 22:41:36,125: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com'], [True, 'wallhaven', 'space'], [True, 'wallhaven', 'minimal'], [True, 'wallhaven', 'scifi'], [True, 'wallhaven', 'simple'], [True, 'wallhaven', 'abstract'], [True, 'folder', '/home/erik/Templates/wallpapers/wallhaven']]'
-INFO: 2025-06-27 22:41:36,125: log_options() 'stats_enabled = True'
-INFO: 2025-06-27 22:41:36,125: log_options() 'stats_notice_shown = False'
-INFO: 2025-06-27 22:41:36,125: log_options() 'sync_enabled = True'
-INFO: 2025-06-27 22:41:36,125: log_options() 'use_landscape_enabled = True'
-INFO: 2025-06-27 22:41:36,125: log_options() 'wallhaven_api_key = '
-INFO: 2025-06-27 22:41:36,125: log_options() 'wallpaper_auto_rotate = True'
-INFO: 2025-06-27 22:41:36,125: log_options() 'wallpaper_display_mode = os'
-INFO: 2025-06-27 22:41:36,125: reload_config() 'No need to clear prepared queue'
-INFO: 2025-06-27 22:41:36,125: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg'
-INFO: 2025-06-27 22:41:36,129: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
-INFO: 2025-06-27 22:41:36,129: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 600'
-INFO: 2025-06-27 22:41:36,129: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg'
-INFO: 2025-06-27 22:41:36,130: regular_change_thread() 'regular_change thread running'
-INFO: 2025-06-27 22:41:36,130: prepare_thread() 'Prepare thread running'
-INFO: 2025-06-27 22:41:36,131: prepare_thread() 'Prepared buffer contains 0 images'
-INFO: 2025-06-27 22:41:36,131: prepare_thread() 'Preparing some images'
-INFO: 2025-06-27 22:41:36,133: update_indicator_icon() 'Creating indicator'
-INFO: 2025-06-27 22:41:36,136: get_throttling() 'Wallhaven.cc: parsing serverside options'
-INFO: 2025-06-27 22:41:36,136: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
-INFO: 2025-06-27 22:41:36,136: get_throttling() 'Wallhaven.cc: parsing serverside options'
-INFO: 2025-06-27 22:41:36,136: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
-INFO: 2025-06-27 22:41:36,136: download_one() 'Wallhaven.cc: Downloading an image, config: scifi'
-INFO: 2025-06-27 22:41:36,136: download_one() 'Wallhaven.cc: Queue size: 0'
-INFO: 2025-06-27 22:41:36,136: get_throttling() 'Wallhaven.cc: parsing serverside options'
-INFO: 2025-06-27 22:41:36,136: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
-INFO: 2025-06-27 22:41:36,136: download_one() 'Wallhaven.cc: Filling queue'
-INFO: 2025-06-27 22:41:36,136: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=scifi&categories=111&purity=100&sorting=favorites&order=desc'
-WARNING: 2025-06-27 22:41:36,143: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
-INFO: 2025-06-27 22:41:36,144: create_indicator() 'indicator backend: AyatanaAppIndicator3'
-INFO: 2025-06-27 22:41:36,173: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
-INFO: 2025-06-27 22:41:36,219: prepare_thread() 'After search prepared buffer contains 91 images'
-INFO: 2025-06-27 22:41:36,229: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg, time: 1751078496.2299685'
-INFO: 2025-06-27 22:41:36,231: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-aacfcddbbb40175e157ea3e5989d5eed.jpg'
-INFO: 2025-06-27 22:41:36,469: fill_queue() '13020 wallpapers in result, using page 7'
-INFO: 2025-06-27 22:41:36,469: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=scifi&categories=111&purity=100&sorting=favorites&order=desc&page=7'
-INFO: 2025-06-27 22:41:36,587: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg'
-INFO: 2025-06-27 22:41:36,589: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2025-06-27 22:41:36,643: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
-INFO: 2025-06-27 22:41:36,643: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/8xy3l2'
-INFO: 2025-06-27 22:41:36,643: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/8x/wallhaven-8xy3l2.png'
-INFO: 2025-06-27 22:41:36,771: save_locally() 'Origin URL: https://wallhaven.cc/w/8xy3l2'
-INFO: 2025-06-27 22:41:36,771: save_locally() 'Image URL: https://w.wallhaven.cc/full/8x/wallhaven-8xy3l2.png'
-INFO: 2025-06-27 22:41:36,771: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-8xy3l2.png'
-INFO: 2025-06-27 22:41:37,076: save_locally() 'Download complete'
-INFO: 2025-06-27 22:41:37,076: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg'
-INFO: 2025-06-27 22:41:37,077: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2025-06-27 22:41:37,078: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-8xy3l2.png to unseen_downloads'
-INFO: 2025-06-27 22:41:37,626: reload() 'Reloading preferences dialog'
-INFO: 2025-06-27 22:41:38,220: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2025-06-27 22:41:41,131: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-mdeo68.jpg'
-INFO: 2025-06-27 22:41:41,131: prepare_thread() 'Prepared buffer contains 91 images'
-INFO: 2025-06-27 22:41:41,132: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-mdeo68.jpg, time: 1751078501.1328225'
-INFO: 2025-06-27 22:41:41,133: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-mdeo68.jpg -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-2f2692b2ae66008c67ee0256264395e1.jpg'
-INFO: 2025-06-27 22:41:41,258: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-mdeo68.jpg'
-INFO: 2025-06-27 22:41:41,259: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2025-06-27 22:41:43,132: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2025-06-27 22:41:43,132: get_throttling() 'Wallhaven.cc: parsing serverside options'
-INFO: 2025-06-27 22:41:43,132: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
-INFO: 2025-06-27 22:41:43,132: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2025-06-27 22:41:43,132: get_throttling() 'Wallhaven.cc: parsing serverside options'
-INFO: 2025-06-27 22:41:43,132: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
-INFO: 2025-06-27 22:41:43,132: download_one() 'Wallhaven.cc: Downloading an image, config: minimal'
-INFO: 2025-06-27 22:41:43,132: download_one() 'Wallhaven.cc: Queue size: 0'
-INFO: 2025-06-27 22:41:43,132: get_throttling() 'Wallhaven.cc: parsing serverside options'
-INFO: 2025-06-27 22:41:43,132: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
-INFO: 2025-06-27 22:41:43,133: download_one() 'Wallhaven.cc: Filling queue'
-INFO: 2025-06-27 22:41:43,133: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=minimal&categories=111&purity=100&sorting=favorites&order=desc'
-INFO: 2025-06-27 22:41:43,392: fill_queue() '22604 wallpapers in result, using page 1'
-INFO: 2025-06-27 22:41:43,392: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=minimal&categories=111&purity=100&sorting=favorites&order=desc&page=1'
-INFO: 2025-06-27 22:41:43,663: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
-INFO: 2025-06-27 22:41:43,663: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/m3zjx1'
-INFO: 2025-06-27 22:41:43,663: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/m3/wallhaven-m3zjx1.jpg'
-INFO: 2025-06-27 22:41:43,808: save_locally() 'Origin URL: https://wallhaven.cc/w/m3zjx1'
-INFO: 2025-06-27 22:41:43,808: save_locally() 'Image URL: https://w.wallhaven.cc/full/m3/wallhaven-m3zjx1.jpg'
-INFO: 2025-06-27 22:41:43,808: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-m3zjx1.jpg'
-INFO: 2025-06-27 22:41:43,808: save_locally() 'File already exists, skip downloading'
-INFO: 2025-06-27 22:41:56,131: server_options_thread() 'Fetching server options from https://gist.githubusercontent.com/peterlevi/a7d1dbf3a4e76e15760a/raw/fab10d0ce5cfe66377e7c650be56edb497aabbd4/variety_server_options.json'
-INFO: 2025-06-27 22:41:56,223: server_options_thread() 'Fetched server options: {'flickr': {'min_fill_queue_interval': 1200, 'min_download_interval': 1200}, 'wallbase': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallhaven': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallpapers.net': {'min_fill_queue_interval': 601, 'min_download_interval': 0}, 'unsplash': {'min_fill_queue_interval': 20000000000, 'min_download_interval': 20000000000}, 'unsplash_v2': {'min_fill_queue_interval': 3600, 'min_download_interval': 1800}, 'status_message': {'0.0.1': '', '*': ''}}'
+INFO: 2025-06-28 20:20:58,522: main() 'Using profile folder /home/pd0rk1n/.config/variety/'
+INFO: 2025-06-28 20:20:58,526: perform_upgrade() 'Last run version was 0.8.13 or earlier, current version is 0.8.13'
+INFO: 2025-06-28 20:20:58,533: process_command() 'Received command: ['--profile', '/home/pd0rk1n/.config/variety/']'
+INFO: 2025-06-28 20:20:58,535: start() 'Using data_path /usr/share/variety'
+INFO: 2025-06-28 20:20:58,535: load() 'Jumble loading'
+INFO: 2025-06-28 20:20:58,535: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2025-06-28 20:20:58,536: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2025-06-28 20:20:58,581: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,582: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2025-06-28 20:20:58,583: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: /home/pd0rk1n/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,583: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2025-06-28 20:20:58,584: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,584: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2025-06-28 20:20:58,584: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2025-06-28 20:20:58,585: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,585: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2025-06-28 20:20:58,586: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,586: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
+INFO: 2025-06-28 20:20:58,587: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2025-06-28 20:20:58,587: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
+INFO: 2025-06-28 20:20:58,588: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2025-06-28 20:20:58,588: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/__init__.py'
+INFO: 2025-06-28 20:20:58,589: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /usr/lib/python3.13/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
+INFO: 2025-06-28 20:20:58,589: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2025-06-28 20:20:58,590: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2025-06-28 20:20:58,593: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,593: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2025-06-28 20:20:58,593: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2025-06-28 20:20:58,596: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,596: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2025-06-28 20:20:58,597: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,597: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2025-06-28 20:20:58,598: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,598: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2025-06-28 20:20:58,598: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2025-06-28 20:20:58,599: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2025-06-28 20:20:58,600: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,600: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2025-06-28 20:20:58,600: _walk_modules() 'Jumble loading module in ArtStationDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
+INFO: 2025-06-28 20:20:58,601: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
+INFO: 2025-06-28 20:20:58,601: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,602: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
+INFO: 2025-06-28 20:20:58,602: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2025-06-28 20:20:58,603: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,603: _walk_modules() 'Jumble loading module in ArtStationSource from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
+INFO: 2025-06-28 20:20:58,604: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,605: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2025-06-28 20:20:58,606: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,606: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.13/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2025-06-28 20:20:58,607: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-06-28 20:20:58,625: reload_config() 'Creating new downloader for type wallhaven, location space'
+INFO: 2025-06-28 20:20:58,625: reload_config() 'Creating new downloader for type wallhaven, location minimal'
+INFO: 2025-06-28 20:20:58,626: reload_config() 'Creating new downloader for type wallhaven, location scifi'
+INFO: 2025-06-28 20:20:58,626: reload_config() 'Creating new downloader for type wallhaven, location simple'
+INFO: 2025-06-28 20:20:58,626: reload_config() 'Creating new downloader for type wallhaven, location abstract'
+INFO: 2025-06-28 20:20:58,628: log_options() 'Loaded options:'
+INFO: 2025-06-28 20:20:58,628: log_options() 'change_enabled = True'
+INFO: 2025-06-28 20:20:58,628: log_options() 'change_interval = 600'
+INFO: 2025-06-28 20:20:58,628: log_options() 'change_on_start = True'
+INFO: 2025-06-28 20:20:58,628: log_options() 'clipboard_enabled = False'
+INFO: 2025-06-28 20:20:58,628: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2025-06-28 20:20:58,628: log_options() 'clipboard_use_whitelist = True'
+INFO: 2025-06-28 20:20:58,628: log_options() 'clock_date_font = Serif 30'
+INFO: 2025-06-28 20:20:58,628: log_options() 'clock_enabled = False'
+INFO: 2025-06-28 20:20:58,628: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2025-06-28 20:20:58,628: log_options() 'clock_font = Serif 70'
+INFO: 2025-06-28 20:20:58,628: log_options() 'configfile = /home/pd0rk1n/.config/variety/variety.conf'
+INFO: 2025-06-28 20:20:58,628: log_options() 'copyto_enabled = False'
+INFO: 2025-06-28 20:20:58,628: log_options() 'copyto_folder = Default'
+INFO: 2025-06-28 20:20:58,628: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2025-06-28 20:20:58,628: log_options() 'desired_color_enabled = False'
+INFO: 2025-06-28 20:20:58,628: log_options() 'download_folder = /home/pd0rk1n/.config/variety/Downloaded'
+INFO: 2025-06-28 20:20:58,628: log_options() 'download_preference_ratio = 0.9'
+INFO: 2025-06-28 20:20:58,628: log_options() 'favorites_folder = /home/pd0rk1n/.config/variety/Favorites'
+INFO: 2025-06-28 20:20:58,628: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2025-06-28 20:20:58,628: log_options() 'fetched_folder = /home/pd0rk1n/.config/variety/Fetched'
+INFO: 2025-06-28 20:20:58,628: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2025-06-28 20:20:58,629: log_options() 'get_wallpaper_script = /home/pd0rk1n/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2025-06-28 20:20:58,629: log_options() 'icon = Light'
+INFO: 2025-06-28 20:20:58,629: log_options() 'internet_enabled = True'
+INFO: 2025-06-28 20:20:58,629: log_options() 'lightness_enabled = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'lightness_mode = 0'
+INFO: 2025-06-28 20:20:58,629: log_options() 'min_rating = 4'
+INFO: 2025-06-28 20:20:58,629: log_options() 'min_rating_enabled = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'min_size = 80'
+INFO: 2025-06-28 20:20:58,629: log_options() 'min_size_enabled = True'
+INFO: 2025-06-28 20:20:58,629: log_options() 'name_regex = .*'
+INFO: 2025-06-28 20:20:58,629: log_options() 'name_regex_enabled = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quota_enabled = True'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quota_size = 1000'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_authors = '
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_bg_opacity = 55'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_change_enabled = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_change_interval = 300'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_enabled = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_favorites_file = /home/pd0rk1n/.config/variety/favorite_quotes.txt'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_font = Serif 30'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_hpos = 100'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_max_length = 250'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_tags = '
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_text_shadow = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_vpos = 40'
+INFO: 2025-06-28 20:20:58,629: log_options() 'quotes_width = 70'
+INFO: 2025-06-28 20:20:58,629: log_options() 'safe_mode = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'set_wallpaper_script = /home/pd0rk1n/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2025-06-28 20:20:58,629: log_options() 'slideshow_custom_enabled = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'slideshow_custom_folder = /home/pd0rk1n/Pictures'
+INFO: 2025-06-28 20:20:58,629: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2025-06-28 20:20:58,629: log_options() 'slideshow_fade = 0.4'
+INFO: 2025-06-28 20:20:58,629: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2025-06-28 20:20:58,629: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2025-06-28 20:20:58,629: log_options() 'slideshow_monitor = All'
+INFO: 2025-06-28 20:20:58,630: log_options() 'slideshow_pan = 0.05'
+INFO: 2025-06-28 20:20:58,630: log_options() 'slideshow_seconds = 6.0'
+INFO: 2025-06-28 20:20:58,630: log_options() 'slideshow_sort_order = Random'
+INFO: 2025-06-28 20:20:58,630: log_options() 'slideshow_sources_enabled = True'
+INFO: 2025-06-28 20:20:58,630: log_options() 'slideshow_zoom = 0.2'
+INFO: 2025-06-28 20:20:58,630: log_options() 'smart_enabled = False'
+INFO: 2025-06-28 20:20:58,630: log_options() 'smart_notice_shown = False'
+INFO: 2025-06-28 20:20:58,630: log_options() 'smart_register_shown = False'
+INFO: 2025-06-28 20:20:58,630: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com'], [True, 'wallhaven', 'space'], [True, 'wallhaven', 'minimal'], [True, 'wallhaven', 'scifi'], [True, 'wallhaven', 'simple'], [True, 'wallhaven', 'abstract'], [True, 'folder', '/home/erik/Templates/wallpapers/wallhaven']]'
+INFO: 2025-06-28 20:20:58,630: log_options() 'stats_enabled = True'
+INFO: 2025-06-28 20:20:58,630: log_options() 'stats_notice_shown = False'
+INFO: 2025-06-28 20:20:58,630: log_options() 'sync_enabled = True'
+INFO: 2025-06-28 20:20:58,630: log_options() 'use_landscape_enabled = True'
+INFO: 2025-06-28 20:20:58,630: log_options() 'wallhaven_api_key = '
+INFO: 2025-06-28 20:20:58,630: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2025-06-28 20:20:58,630: log_options() 'wallpaper_display_mode = os'
+INFO: 2025-06-28 20:20:58,630: reload_config() 'No need to clear prepared queue'
+INFO: 2025-06-28 20:20:58,630: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg'
+INFO: 2025-06-28 20:20:58,635: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2025-06-28 20:20:58,635: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 600'
+INFO: 2025-06-28 20:20:58,635: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg'
+INFO: 2025-06-28 20:20:58,636: regular_change_thread() 'regular_change thread running'
+INFO: 2025-06-28 20:20:58,636: prepare_thread() 'Prepare thread running'
+INFO: 2025-06-28 20:20:58,636: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2025-06-28 20:20:58,636: prepare_thread() 'Preparing some images'
+INFO: 2025-06-28 20:20:58,642: update_indicator_icon() 'Creating indicator'
+WARNING: 2025-06-28 20:20:58,648: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2025-06-28 20:20:58,648: create_indicator() 'indicator backend: AppIndicator3'
+INFO: 2025-06-28 20:20:58,660: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2025-06-28 20:20:58,721: prepare_thread() 'After search prepared buffer contains 90 images'
+INFO: 2025-06-28 20:20:58,735: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg, time: 1751156458.7357578'
+INFO: 2025-06-28 20:20:58,737: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-1fc0b4ace151caba1ca44aec29ee62fe.jpg'
+INFO: 2025-06-28 20:20:58,842: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg'
+INFO: 2025-06-28 20:20:58,844: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:21:00,170: reload() 'Reloading preferences dialog'
+INFO: 2025-06-28 20:21:00,721: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:21:03,636: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-dg7keo.png'
+INFO: 2025-06-28 20:21:03,637: prepare_thread() 'Prepared buffer contains 90 images'
+INFO: 2025-06-28 20:21:03,637: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-dg7keo.png, time: 1751156463.63794'
+INFO: 2025-06-28 20:21:03,638: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-dg7keo.png -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-313039f3e413a1c35d1dd879577a04a0.jpg'
+INFO: 2025-06-28 20:21:04,177: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-dg7keo.png'
+INFO: 2025-06-28 20:21:04,179: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:21:05,637: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:21:05,637: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:21:05,638: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:21:05,638: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
+INFO: 2025-06-28 20:21:05,638: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:21:05,638: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
+INFO: 2025-06-28 20:21:05,638: download_one() 'Wallhaven.cc: Downloading an image, config: space'
+INFO: 2025-06-28 20:21:05,638: download_one() 'Wallhaven.cc: Queue size: 0'
+INFO: 2025-06-28 20:21:05,638: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:21:05,638: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
+INFO: 2025-06-28 20:21:05,638: download_one() 'Wallhaven.cc: Filling queue'
+INFO: 2025-06-28 20:21:05,638: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=space&categories=111&purity=100&sorting=favorites&order=desc'
+INFO: 2025-06-28 20:21:05,997: fill_queue() '13308 wallpapers in result, using page 2'
+INFO: 2025-06-28 20:21:05,997: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=space&categories=111&purity=100&sorting=favorites&order=desc&page=2'
+INFO: 2025-06-28 20:21:06,247: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
+INFO: 2025-06-28 20:21:06,247: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/r2okx1'
+INFO: 2025-06-28 20:21:06,247: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/r2/wallhaven-r2okx1.png'
+INFO: 2025-06-28 20:21:06,429: save_locally() 'Origin URL: https://wallhaven.cc/w/r2okx1'
+INFO: 2025-06-28 20:21:06,429: save_locally() 'Image URL: https://w.wallhaven.cc/full/r2/wallhaven-r2okx1.png'
+INFO: 2025-06-28 20:21:06,429: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-r2okx1.png'
+INFO: 2025-06-28 20:21:06,698: save_locally() 'Download complete'
+INFO: 2025-06-28 20:21:06,698: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg'
+INFO: 2025-06-28 20:21:06,699: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:21:06,699: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-r2okx1.png to unseen_downloads'
+INFO: 2025-06-28 20:21:18,637: server_options_thread() 'Fetching server options from https://gist.githubusercontent.com/peterlevi/a7d1dbf3a4e76e15760a/raw/fab10d0ce5cfe66377e7c650be56edb497aabbd4/variety_server_options.json'
+INFO: 2025-06-28 20:21:18,726: server_options_thread() 'Fetched server options: {'flickr': {'min_fill_queue_interval': 1200, 'min_download_interval': 1200}, 'wallbase': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallhaven': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallpapers.net': {'min_fill_queue_interval': 601, 'min_download_interval': 0}, 'unsplash': {'min_fill_queue_interval': 20000000000, 'min_download_interval': 20000000000}, 'unsplash_v2': {'min_fill_queue_interval': 3600, 'min_download_interval': 1800}, 'status_message': {'0.0.1': '', '*': ''}}'
+INFO: 2025-06-28 20:31:07,448: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2025-06-28 20:31:07,448: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-85pej2.png'
+INFO: 2025-06-28 20:31:07,448: prepare_thread() 'Prepared buffer contains 90 images'
+INFO: 2025-06-28 20:31:07,449: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-85pej2.png, time: 1751157067.4498749'
+INFO: 2025-06-28 20:31:07,450: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-85pej2.png -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-31f4e92d47a918851ea41890a307fe3d.jpg'
+INFO: 2025-06-28 20:31:08,211: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-85pej2.png'
+INFO: 2025-06-28 20:31:08,212: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:31:09,449: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:31:09,449: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:31:09,450: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:31:09,450: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 20:31:09,450: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:31:09,450: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 20:31:09,450: download_one() 'Wallhaven.cc: Downloading an image, config: space'
+INFO: 2025-06-28 20:31:09,450: download_one() 'Wallhaven.cc: Queue size: 11'
+INFO: 2025-06-28 20:31:09,450: download_one() 'Wallhaven.cc: Queue populated with 11 URLs'
+INFO: 2025-06-28 20:31:09,450: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/nm1oyn'
+INFO: 2025-06-28 20:31:09,450: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/nm/wallhaven-nm1oyn.jpg'
+INFO: 2025-06-28 20:31:09,584: save_locally() 'Origin URL: https://wallhaven.cc/w/nm1oyn'
+INFO: 2025-06-28 20:31:09,584: save_locally() 'Image URL: https://w.wallhaven.cc/full/nm/wallhaven-nm1oyn.jpg'
+INFO: 2025-06-28 20:31:09,584: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-nm1oyn.jpg'
+INFO: 2025-06-28 20:31:09,836: save_locally() 'Download complete'
+INFO: 2025-06-28 20:31:09,837: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-dg7keo.png'
+INFO: 2025-06-28 20:31:09,839: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:31:09,839: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-nm1oyn.jpg to unseen_downloads'
+INFO: 2025-06-28 20:41:11,988: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2025-06-28 20:41:11,988: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-9drjlw.png'
+INFO: 2025-06-28 20:41:11,989: prepare_thread() 'Prepared buffer contains 90 images'
+INFO: 2025-06-28 20:41:11,989: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-9drjlw.png, time: 1751157671.9899046'
+INFO: 2025-06-28 20:41:11,990: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-9drjlw.png -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-f2ede83eadaeb49a055313b1381595e3.jpg'
+INFO: 2025-06-28 20:41:12,419: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-9drjlw.png'
+INFO: 2025-06-28 20:41:12,422: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:41:13,989: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:41:13,989: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:41:13,990: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:41:13,990: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 20:41:13,990: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:41:13,990: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 20:41:13,990: download_one() 'Wallhaven.cc: Downloading an image, config: minimal'
+INFO: 2025-06-28 20:41:13,990: download_one() 'Wallhaven.cc: Queue size: 0'
+INFO: 2025-06-28 20:41:13,990: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:41:13,990: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 20:41:13,990: download_one() 'Wallhaven.cc: Filling queue'
+INFO: 2025-06-28 20:41:13,990: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=minimal&categories=111&purity=100&sorting=favorites&order=desc'
+INFO: 2025-06-28 20:41:14,385: fill_queue() '22607 wallpapers in result, using page 25'
+INFO: 2025-06-28 20:41:14,385: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=minimal&categories=111&purity=100&sorting=favorites&order=desc&page=25'
+INFO: 2025-06-28 20:41:14,569: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
+INFO: 2025-06-28 20:41:14,569: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/we3gp6'
+INFO: 2025-06-28 20:41:14,569: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/we/wallhaven-we3gp6.png'
+INFO: 2025-06-28 20:41:14,691: save_locally() 'Origin URL: https://wallhaven.cc/w/we3gp6'
+INFO: 2025-06-28 20:41:14,691: save_locally() 'Image URL: https://w.wallhaven.cc/full/we/wallhaven-we3gp6.png'
+INFO: 2025-06-28 20:41:14,691: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-we3gp6.png'
+INFO: 2025-06-28 20:41:15,106: save_locally() 'Download complete'
+INFO: 2025-06-28 20:41:15,106: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-85pej2.png'
+INFO: 2025-06-28 20:41:15,108: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:41:15,108: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-we3gp6.png to unseen_downloads'
+INFO: 2025-06-28 20:51:15,740: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2025-06-28 20:51:15,740: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-l3oeyl.jpg'
+INFO: 2025-06-28 20:51:15,740: prepare_thread() 'Prepared buffer contains 90 images'
+INFO: 2025-06-28 20:51:15,741: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-l3oeyl.jpg, time: 1751158275.741791'
+INFO: 2025-06-28 20:51:15,742: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-l3oeyl.jpg -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-677606940ae0e6e5c1509f66b63ea904.jpg'
+INFO: 2025-06-28 20:51:16,273: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-l3oeyl.jpg'
+INFO: 2025-06-28 20:51:16,274: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:51:17,741: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:51:17,741: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:51:17,741: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 20:51:17,741: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 20:51:17,741: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 20:51:17,742: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 20:51:17,742: download_one() 'Wallhaven.cc: Downloading an image, config: space'
+INFO: 2025-06-28 20:51:17,742: download_one() 'Wallhaven.cc: Queue size: 10'
+INFO: 2025-06-28 20:51:17,742: download_one() 'Wallhaven.cc: Queue populated with 10 URLs'
+INFO: 2025-06-28 20:51:17,742: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/zyj8gw'
+INFO: 2025-06-28 20:51:17,742: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/zy/wallhaven-zyj8gw.jpg'
+INFO: 2025-06-28 20:51:17,872: save_locally() 'Origin URL: https://wallhaven.cc/w/zyj8gw'
+INFO: 2025-06-28 20:51:17,872: save_locally() 'Image URL: https://w.wallhaven.cc/full/zy/wallhaven-zyj8gw.jpg'
+INFO: 2025-06-28 20:51:17,872: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-zyj8gw.jpg'
+INFO: 2025-06-28 20:51:18,052: save_locally() 'Download complete'
+INFO: 2025-06-28 20:51:18,052: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-9drjlw.png'
+INFO: 2025-06-28 20:51:18,055: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 20:51:18,056: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-zyj8gw.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:19,544: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2025-06-28 21:01:19,544: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:19,544: prepare_thread() 'Prepared buffer contains 90 images'
+INFO: 2025-06-28 21:01:19,545: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png, time: 1751158879.5454116'
+INFO: 2025-06-28 21:01:19,545: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-f16d82f2579312fbaaf4ef6e7b0e3d81.jpg'
+INFO: 2025-06-28 21:01:19,682: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:19,685: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:21,544: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:21,545: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:21,545: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:21,546: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:21,546: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:21,546: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:21,546: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:21,546: download_one() 'Wallhaven.cc: Queue size: 0'
+INFO: 2025-06-28 21:01:21,546: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:21,546: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:21,546: download_one() 'Wallhaven.cc: Filling queue'
+INFO: 2025-06-28 21:01:21,546: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=simple&categories=111&purity=100&sorting=favorites&order=desc'
+INFO: 2025-06-28 21:01:21,883: fill_queue() '70438 wallpapers in result, using page 29'
+INFO: 2025-06-28 21:01:21,884: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=simple&categories=111&purity=100&sorting=favorites&order=desc&page=29'
+INFO: 2025-06-28 21:01:22,079: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
+INFO: 2025-06-28 21:01:22,079: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/9dze3x'
+INFO: 2025-06-28 21:01:22,079: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/9d/wallhaven-9dze3x.jpg'
+INFO: 2025-06-28 21:01:22,210: save_locally() 'Origin URL: https://wallhaven.cc/w/9dze3x'
+INFO: 2025-06-28 21:01:22,210: save_locally() 'Image URL: https://w.wallhaven.cc/full/9d/wallhaven-9dze3x.jpg'
+INFO: 2025-06-28 21:01:22,211: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dze3x.jpg'
+INFO: 2025-06-28 21:01:22,438: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:22,438: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-l3oeyl.jpg'
+INFO: 2025-06-28 21:01:22,440: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:22,447: purge_downloaded() 'Refreshed download folder size: 1040.7554445266724 mb'
+INFO: 2025-06-28 21:01:22,447: purge_downloaded() 'Purging oldest files from download folder /home/pd0rk1n/.config/variety/Downloaded, current size: 1040 mb'
+ERROR: 2025-06-28 21:01:22,453: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dy51x.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dy51x.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,453: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p9jylj.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p9jylj.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,454: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-x6dv9l.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-x6dv9l.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,454: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g8jxe7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g8jxe7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,454: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg3vql.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg3vql.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,455: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p8x6mm.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p8x6mm.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,455: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lm73rl.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lm73rl.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,456: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wemdqr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wemdqr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,456: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-72mzpy.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-72mzpy.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,457: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5d7k7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5d7k7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,457: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6k2qd7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6k2qd7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,457: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48dep2.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48dep2.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,458: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-49zok0.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-49zok0.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,458: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmrmdo.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmrmdo.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,458: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-q213e5.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-q213e5.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-gpgyw3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-gpgyw3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmo1lj.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmo1lj.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dpxmk3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dpxmk3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8596q2.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8596q2.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,460: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85yld.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85yld.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,460: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m3oq1k.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m3oq1k.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,461: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-13zzg9.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-13zzg9.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,461: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymgkyl.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymgkyl.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,461: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qz782q.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qz782q.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85wll2.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85wll2.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-odkjol.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-odkjol.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dp7xwj.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dp7xwj.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nrk8wq.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nrk8wq.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,463: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-r2lgyj.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-r2lgyj.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,463: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg8ozg.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg8ozg.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,464: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jx2w75.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jx2w75.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,464: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-kwvx6d.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-kwvx6d.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,464: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8581xo.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8581xo.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,465: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v95lq3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v95lq3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,465: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxyq5l.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxyq5l.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,465: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-exel8o.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-exel8o.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,466: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v9zlxp.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v9zlxp.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,466: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymjvyg.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymjvyg.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,466: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5wz5r7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5wz5r7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,467: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wyv5vr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wyv5vr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,467: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1p22m9.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1p22m9.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,467: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxgx6l.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxgx6l.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,468: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dlyyl.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dlyyl.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,468: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48kr3j.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48kr3j.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,469: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzgkzd.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzgkzd.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,469: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5ygll.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5ygll.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,469: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-2eo5xy.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-2eo5xy.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,470: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-vqow68.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-vqow68.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,470: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6ovpvw.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6ovpvw.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,470: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5762p1.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5762p1.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,471: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y8ov2k.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y8ov2k.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,471: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4o1235.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4o1235.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,472: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxzmog.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxzmog.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,472: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85xx7.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85xx7.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,472: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzq7dr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzq7dr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,473: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dkeqd.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dkeqd.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,473: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlym7d.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlym7d.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,473: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6oeexx.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6oeexx.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,474: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8oyg6j.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8oyg6j.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,474: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nr1jj0.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nr1jj0.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,474: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l82x2l.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l82x2l.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,475: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3ld95v.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3ld95v.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,475: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g5re3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g5re3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,475: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-w8jdkr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-w8jdkr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,476: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o31j7l.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o31j7l.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,476: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dgzp8.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dgzp8.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,477: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9mxpx1.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9mxpx1.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,477: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1pd22w.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1pd22w.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,478: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85gkj1.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85gkj1.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,478: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g57w1.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g57w1.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,478: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,479: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmw6rg.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmw6rg.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,479: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-57zjo7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-57zjo7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,480: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lq8zr2.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lq8zr2.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,481: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4yqem7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4yqem7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,481: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6owrgl.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6owrgl.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,481: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmdpjy.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmdpjy.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,482: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jxyopy.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jxyopy.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,482: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8owpe1.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8owpe1.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,483: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pml7v.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pml7v.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,483: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pg6zv.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pg6zv.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,483: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlp9gv.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlp9gv.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,484: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l3ymrr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l3ymrr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,484: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,485: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yx2v3g.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yx2v3g.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,485: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-pk8qme.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-pk8qme.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,486: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m32v7m.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m32v7m.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,486: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3l5m1d.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3l5m1d.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,487: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-1k9y6g.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-1k9y6g.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,487: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-x1pqdz.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-x1pqdz.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,488: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-m321gm.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-m321gm.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,488: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3wvk5.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3wvk5.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,488: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kp5d.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kp5d.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,489: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-0jepq4.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-0jepq4.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,489: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-4339dd.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-4339dd.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,490: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-138xmv.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-138xmv.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,490: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g89eqe.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g89eqe.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,491: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-qzo6j7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-qzo6j7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,491: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-3zmpy3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-3zmpy3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,492: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-83lq62.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-83lq62.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,492: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g8qw1d.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g8qw1d.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,492: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3ljd5.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3ljd5.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,493: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-9568vx.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-9568vx.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,494: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-49dpmd.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-49dpmd.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,494: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kryl.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kryl.png.metadata.json'
+INFO: 2025-06-28 21:01:22,494: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2025-06-28 21:01:22,494: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dze3x.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:23,495: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:23,495: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:23,495: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:23,495: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:23,495: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:23,495: download_one() 'Wallhaven.cc: Queue size: 11'
+INFO: 2025-06-28 21:01:23,495: download_one() 'Wallhaven.cc: Queue populated with 11 URLs'
+INFO: 2025-06-28 21:01:23,495: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/3lr229'
+INFO: 2025-06-28 21:01:23,495: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/3l/wallhaven-3lr229.jpg'
+INFO: 2025-06-28 21:01:23,621: save_locally() 'Origin URL: https://wallhaven.cc/w/3lr229'
+INFO: 2025-06-28 21:01:23,621: save_locally() 'Image URL: https://w.wallhaven.cc/full/3l/wallhaven-3lr229.jpg'
+INFO: 2025-06-28 21:01:23,621: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3lr229.jpg'
+INFO: 2025-06-28 21:01:24,006: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:24,006: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:24,008: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:24,008: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3lr229.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:24,456: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,464: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,472: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,475: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,480: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,481: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,483: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,483: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,485: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,487: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,487: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,488: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,489: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,490: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,492: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,494: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:24,495: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:25,008: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:25,009: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:25,009: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:25,009: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:25,009: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:25,009: download_one() 'Wallhaven.cc: Queue size: 10'
+INFO: 2025-06-28 21:01:25,009: download_one() 'Wallhaven.cc: Queue populated with 10 URLs'
+INFO: 2025-06-28 21:01:25,009: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/7j6wpy'
+INFO: 2025-06-28 21:01:25,009: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/7j/wallhaven-7j6wpy.jpg'
+INFO: 2025-06-28 21:01:25,146: save_locally() 'Origin URL: https://wallhaven.cc/w/7j6wpy'
+INFO: 2025-06-28 21:01:25,146: save_locally() 'Image URL: https://w.wallhaven.cc/full/7j/wallhaven-7j6wpy.jpg'
+INFO: 2025-06-28 21:01:25,146: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7j6wpy.jpg'
+INFO: 2025-06-28 21:01:25,469: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:25,469: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:25,471: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:25,471: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7j6wpy.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:26,472: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:26,472: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:26,472: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:26,472: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:26,472: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:26,472: download_one() 'Wallhaven.cc: Queue size: 9'
+INFO: 2025-06-28 21:01:26,472: download_one() 'Wallhaven.cc: Queue populated with 9 URLs'
+INFO: 2025-06-28 21:01:26,472: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/wqmkx7'
+INFO: 2025-06-28 21:01:26,472: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/wq/wallhaven-wqmkx7.jpg'
+INFO: 2025-06-28 21:01:26,595: save_locally() 'Origin URL: https://wallhaven.cc/w/wqmkx7'
+INFO: 2025-06-28 21:01:26,596: save_locally() 'Image URL: https://w.wallhaven.cc/full/wq/wallhaven-wqmkx7.jpg'
+INFO: 2025-06-28 21:01:26,596: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wqmkx7.jpg'
+INFO: 2025-06-28 21:01:26,783: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:26,784: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:26,785: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:26,785: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wqmkx7.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:27,786: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:27,786: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:27,786: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:27,786: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:27,786: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:01:27,786: download_one() 'Wallhaven.cc: Queue size: 0'
+INFO: 2025-06-28 21:01:27,786: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:27,786: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:27,786: download_one() 'Wallhaven.cc: Filling queue'
+INFO: 2025-06-28 21:01:27,786: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=abstract&categories=111&purity=100&sorting=favorites&order=desc'
+INFO: 2025-06-28 21:01:28,015: fill_queue() '14057 wallpapers in result, using page 16'
+INFO: 2025-06-28 21:01:28,015: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=abstract&categories=111&purity=100&sorting=favorites&order=desc&page=16'
+INFO: 2025-06-28 21:01:28,189: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
+INFO: 2025-06-28 21:01:28,189: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/nmvqmn'
+INFO: 2025-06-28 21:01:28,189: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/nm/wallhaven-nmvqmn.jpg'
+INFO: 2025-06-28 21:01:28,318: save_locally() 'Origin URL: https://wallhaven.cc/w/nmvqmn'
+INFO: 2025-06-28 21:01:28,318: save_locally() 'Image URL: https://w.wallhaven.cc/full/nm/wallhaven-nmvqmn.jpg'
+INFO: 2025-06-28 21:01:28,318: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-nmvqmn.jpg'
+INFO: 2025-06-28 21:01:28,460: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:28,460: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:28,462: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:28,462: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-nmvqmn.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:29,463: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:29,463: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:29,463: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:29,463: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:29,463: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:29,463: download_one() 'Wallhaven.cc: Queue size: 8'
+INFO: 2025-06-28 21:01:29,463: download_one() 'Wallhaven.cc: Queue populated with 8 URLs'
+INFO: 2025-06-28 21:01:29,463: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/ymz9mk'
+INFO: 2025-06-28 21:01:29,463: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/ym/wallhaven-ymz9mk.jpg'
+INFO: 2025-06-28 21:01:29,576: save_locally() 'Origin URL: https://wallhaven.cc/w/ymz9mk'
+INFO: 2025-06-28 21:01:29,576: save_locally() 'Image URL: https://w.wallhaven.cc/full/ym/wallhaven-ymz9mk.jpg'
+INFO: 2025-06-28 21:01:29,576: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymz9mk.jpg'
+INFO: 2025-06-28 21:01:29,767: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:29,768: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:29,769: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:29,771: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2025-06-28 21:01:30,772: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:30,772: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:30,772: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:30,772: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:30,772: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:30,772: download_one() 'Wallhaven.cc: Queue size: 7'
+INFO: 2025-06-28 21:01:30,772: download_one() 'Wallhaven.cc: Queue populated with 7 URLs'
+INFO: 2025-06-28 21:01:30,772: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/p9kl33'
+INFO: 2025-06-28 21:01:30,772: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/p9/wallhaven-p9kl33.jpg'
+INFO: 2025-06-28 21:01:30,891: save_locally() 'Origin URL: https://wallhaven.cc/w/p9kl33'
+INFO: 2025-06-28 21:01:30,891: save_locally() 'Image URL: https://w.wallhaven.cc/full/p9/wallhaven-p9kl33.jpg'
+INFO: 2025-06-28 21:01:30,891: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p9kl33.jpg'
+INFO: 2025-06-28 21:01:31,059: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:31,059: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:31,061: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:31,061: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2025-06-28 21:01:31,771: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:32,062: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:32,062: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:32,062: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:32,062: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:32,062: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:32,062: download_one() 'Wallhaven.cc: Queue size: 6'
+INFO: 2025-06-28 21:01:32,062: download_one() 'Wallhaven.cc: Queue populated with 6 URLs'
+INFO: 2025-06-28 21:01:32,062: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/5gzyl9'
+INFO: 2025-06-28 21:01:32,062: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/5g/wallhaven-5gzyl9.jpg'
+INFO: 2025-06-28 21:01:32,191: save_locally() 'Origin URL: https://wallhaven.cc/w/5gzyl9'
+INFO: 2025-06-28 21:01:32,191: save_locally() 'Image URL: https://w.wallhaven.cc/full/5g/wallhaven-5gzyl9.jpg'
+INFO: 2025-06-28 21:01:32,191: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5gzyl9.jpg'
+INFO: 2025-06-28 21:01:32,460: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:32,460: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:32,462: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:32,462: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2025-06-28 21:01:33,061: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:33,463: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:33,463: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:33,463: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:33,463: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:33,463: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:33,463: download_one() 'Wallhaven.cc: Queue size: 5'
+INFO: 2025-06-28 21:01:33,463: download_one() 'Wallhaven.cc: Queue populated with 5 URLs'
+INFO: 2025-06-28 21:01:33,463: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/3l2kmd'
+INFO: 2025-06-28 21:01:33,463: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/3l/wallhaven-3l2kmd.png'
+INFO: 2025-06-28 21:01:33,615: save_locally() 'Origin URL: https://wallhaven.cc/w/3l2kmd'
+INFO: 2025-06-28 21:01:33,615: save_locally() 'Image URL: https://w.wallhaven.cc/full/3l/wallhaven-3l2kmd.png'
+INFO: 2025-06-28 21:01:33,615: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3l2kmd.png'
+INFO: 2025-06-28 21:01:33,887: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:33,887: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:33,889: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:33,891: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3l2kmd.png to unseen_downloads'
+INFO: 2025-06-28 21:01:34,463: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:34,891: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:34,891: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:34,891: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:34,891: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:34,891: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:01:34,892: download_one() 'Wallhaven.cc: Queue size: 11'
+INFO: 2025-06-28 21:01:34,892: download_one() 'Wallhaven.cc: Queue populated with 11 URLs'
+INFO: 2025-06-28 21:01:34,892: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/lmq1xl'
+INFO: 2025-06-28 21:01:34,892: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/lm/wallhaven-lmq1xl.jpg'
+INFO: 2025-06-28 21:01:35,031: save_locally() 'Origin URL: https://wallhaven.cc/w/lmq1xl'
+INFO: 2025-06-28 21:01:35,031: save_locally() 'Image URL: https://w.wallhaven.cc/full/lm/wallhaven-lmq1xl.jpg'
+INFO: 2025-06-28 21:01:35,031: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-lmq1xl.jpg'
+INFO: 2025-06-28 21:01:35,226: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:35,226: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:35,228: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:35,228: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-lmq1xl.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:36,229: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:36,229: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:36,229: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:36,229: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:36,229: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:36,229: download_one() 'Wallhaven.cc: Queue size: 4'
+INFO: 2025-06-28 21:01:36,229: download_one() 'Wallhaven.cc: Queue populated with 4 URLs'
+INFO: 2025-06-28 21:01:36,229: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/q6dpyq'
+INFO: 2025-06-28 21:01:36,229: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/q6/wallhaven-q6dpyq.jpg'
+INFO: 2025-06-28 21:01:36,349: save_locally() 'Origin URL: https://wallhaven.cc/w/q6dpyq'
+INFO: 2025-06-28 21:01:36,349: save_locally() 'Image URL: https://w.wallhaven.cc/full/q6/wallhaven-q6dpyq.jpg'
+INFO: 2025-06-28 21:01:36,349: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-q6dpyq.jpg'
+INFO: 2025-06-28 21:01:36,519: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:36,520: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:36,521: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:36,521: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-q6dpyq.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:37,522: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:37,522: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:37,522: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:37,522: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:37,522: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:01:37,522: download_one() 'Wallhaven.cc: Queue size: 10'
+INFO: 2025-06-28 21:01:37,522: download_one() 'Wallhaven.cc: Queue populated with 10 URLs'
+INFO: 2025-06-28 21:01:37,522: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/vgv9xp'
+INFO: 2025-06-28 21:01:37,522: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/vg/wallhaven-vgv9xp.png'
+INFO: 2025-06-28 21:01:37,644: save_locally() 'Origin URL: https://wallhaven.cc/w/vgv9xp'
+INFO: 2025-06-28 21:01:37,644: save_locally() 'Image URL: https://w.wallhaven.cc/full/vg/wallhaven-vgv9xp.png'
+INFO: 2025-06-28 21:01:37,644: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-vgv9xp.png'
+INFO: 2025-06-28 21:01:37,899: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:37,899: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:37,901: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:37,901: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-vgv9xp.png to unseen_downloads'
+INFO: 2025-06-28 21:01:38,902: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:38,902: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:38,902: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:38,902: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:38,902: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:38,902: download_one() 'Wallhaven.cc: Queue size: 3'
+INFO: 2025-06-28 21:01:38,902: download_one() 'Wallhaven.cc: Queue populated with 3 URLs'
+INFO: 2025-06-28 21:01:38,902: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/v9m538'
+INFO: 2025-06-28 21:01:38,902: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/v9/wallhaven-v9m538.jpg'
+INFO: 2025-06-28 21:01:39,034: save_locally() 'Origin URL: https://wallhaven.cc/w/v9m538'
+INFO: 2025-06-28 21:01:39,034: save_locally() 'Image URL: https://w.wallhaven.cc/full/v9/wallhaven-v9m538.jpg'
+INFO: 2025-06-28 21:01:39,034: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v9m538.jpg'
+INFO: 2025-06-28 21:01:39,209: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:39,209: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:39,210: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:39,210: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2025-06-28 21:01:40,211: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:40,211: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:40,211: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:40,211: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:40,211: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:40,212: download_one() 'Wallhaven.cc: Queue size: 2'
+INFO: 2025-06-28 21:01:40,212: download_one() 'Wallhaven.cc: Queue populated with 2 URLs'
+INFO: 2025-06-28 21:01:40,212: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/e7o9yo'
+INFO: 2025-06-28 21:01:40,212: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/e7/wallhaven-e7o9yo.jpg'
+INFO: 2025-06-28 21:01:40,333: save_locally() 'Origin URL: https://wallhaven.cc/w/e7o9yo'
+INFO: 2025-06-28 21:01:40,334: save_locally() 'Image URL: https://w.wallhaven.cc/full/e7/wallhaven-e7o9yo.jpg'
+INFO: 2025-06-28 21:01:40,334: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-e7o9yo.jpg'
+INFO: 2025-06-28 21:01:40,548: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:40,548: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:40,550: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:40,550: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-e7o9yo.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:41,211: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:41,551: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:41,551: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:41,551: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:41,551: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:41,551: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:01:41,551: download_one() 'Wallhaven.cc: Queue size: 9'
+INFO: 2025-06-28 21:01:41,551: download_one() 'Wallhaven.cc: Queue populated with 9 URLs'
+INFO: 2025-06-28 21:01:41,551: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/d65z1j'
+INFO: 2025-06-28 21:01:41,551: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/d6/wallhaven-d65z1j.jpg'
+INFO: 2025-06-28 21:01:41,670: save_locally() 'Origin URL: https://wallhaven.cc/w/d65z1j'
+INFO: 2025-06-28 21:01:41,670: save_locally() 'Image URL: https://w.wallhaven.cc/full/d6/wallhaven-d65z1j.jpg'
+INFO: 2025-06-28 21:01:41,670: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-d65z1j.jpg'
+INFO: 2025-06-28 21:01:41,913: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:41,914: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:41,915: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:41,915: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-d65z1j.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:42,916: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:42,916: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:42,916: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:42,916: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:42,916: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:42,916: download_one() 'Wallhaven.cc: Queue size: 1'
+INFO: 2025-06-28 21:01:42,916: download_one() 'Wallhaven.cc: Queue populated with 1 URLs'
+INFO: 2025-06-28 21:01:42,916: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/p91rw9'
+INFO: 2025-06-28 21:01:42,916: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/p9/wallhaven-p91rw9.png'
+INFO: 2025-06-28 21:01:43,051: save_locally() 'Origin URL: https://wallhaven.cc/w/p91rw9'
+INFO: 2025-06-28 21:01:43,051: save_locally() 'Image URL: https://w.wallhaven.cc/full/p9/wallhaven-p91rw9.png'
+INFO: 2025-06-28 21:01:43,051: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p91rw9.png'
+INFO: 2025-06-28 21:01:43,273: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:43,274: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:43,275: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:43,275: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p91rw9.png to unseen_downloads'
+INFO: 2025-06-28 21:01:44,276: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:44,276: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:44,276: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:44,276: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:44,276: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:01:44,276: download_one() 'Wallhaven.cc: Queue size: 8'
+INFO: 2025-06-28 21:01:44,276: download_one() 'Wallhaven.cc: Queue populated with 8 URLs'
+INFO: 2025-06-28 21:01:44,276: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/knm1yn'
+INFO: 2025-06-28 21:01:44,277: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/kn/wallhaven-knm1yn.jpg'
+INFO: 2025-06-28 21:01:44,405: save_locally() 'Origin URL: https://wallhaven.cc/w/knm1yn'
+INFO: 2025-06-28 21:01:44,405: save_locally() 'Image URL: https://w.wallhaven.cc/full/kn/wallhaven-knm1yn.jpg'
+INFO: 2025-06-28 21:01:44,405: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-knm1yn.jpg'
+INFO: 2025-06-28 21:01:44,581: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:44,581: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:44,582: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:44,583: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-knm1yn.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:45,583: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:45,583: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:45,583: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:45,583: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:45,583: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:45,584: download_one() 'Wallhaven.cc: Queue size: 0'
+INFO: 2025-06-28 21:01:45,584: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:45,584: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:45,584: download_one() 'Wallhaven.cc: Filling queue'
+INFO: 2025-06-28 21:01:45,584: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=simple&categories=111&purity=100&sorting=favorites&order=desc'
+INFO: 2025-06-28 21:01:45,951: fill_queue() '70438 wallpapers in result, using page 24'
+INFO: 2025-06-28 21:01:45,951: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=simple&categories=111&purity=100&sorting=favorites&order=desc&page=24'
+INFO: 2025-06-28 21:01:46,130: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
+INFO: 2025-06-28 21:01:46,130: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/lqm6dp'
+INFO: 2025-06-28 21:01:46,130: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/lq/wallhaven-lqm6dp.jpg'
+INFO: 2025-06-28 21:01:46,260: save_locally() 'Origin URL: https://wallhaven.cc/w/lqm6dp'
+INFO: 2025-06-28 21:01:46,260: save_locally() 'Image URL: https://w.wallhaven.cc/full/lq/wallhaven-lqm6dp.jpg'
+INFO: 2025-06-28 21:01:46,260: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lqm6dp.jpg'
+INFO: 2025-06-28 21:01:46,445: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:46,445: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:46,447: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:46,447: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2025-06-28 21:01:47,448: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:47,448: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:47,448: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:47,448: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:47,448: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:47,448: download_one() 'Wallhaven.cc: Queue size: 11'
+INFO: 2025-06-28 21:01:47,448: download_one() 'Wallhaven.cc: Queue populated with 11 URLs'
+INFO: 2025-06-28 21:01:47,448: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/3le8dy'
+INFO: 2025-06-28 21:01:47,448: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/3l/wallhaven-3le8dy.jpg'
+INFO: 2025-06-28 21:01:47,583: save_locally() 'Origin URL: https://wallhaven.cc/w/3le8dy'
+INFO: 2025-06-28 21:01:47,583: save_locally() 'Image URL: https://w.wallhaven.cc/full/3l/wallhaven-3le8dy.jpg'
+INFO: 2025-06-28 21:01:47,583: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3le8dy.jpg'
+INFO: 2025-06-28 21:01:47,956: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:47,956: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:47,957: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:47,957: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3le8dy.jpg to unseen_downloads'
+INFO: 2025-06-28 21:01:48,447: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:01:48,958: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:48,958: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:48,958: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:48,958: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:48,958: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:01:48,958: download_one() 'Wallhaven.cc: Queue size: 7'
+INFO: 2025-06-28 21:01:48,958: download_one() 'Wallhaven.cc: Queue populated with 7 URLs'
+INFO: 2025-06-28 21:01:48,959: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/wy96zp'
+INFO: 2025-06-28 21:01:48,959: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/wy/wallhaven-wy96zp.png'
+INFO: 2025-06-28 21:01:49,078: save_locally() 'Origin URL: https://wallhaven.cc/w/wy96zp'
+INFO: 2025-06-28 21:01:49,078: save_locally() 'Image URL: https://w.wallhaven.cc/full/wy/wallhaven-wy96zp.png'
+INFO: 2025-06-28 21:01:49,078: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-wy96zp.png'
+INFO: 2025-06-28 21:01:49,078: save_locally() 'File already exists, skip downloading'
+INFO: 2025-06-28 21:01:50,079: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:50,079: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:50,079: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:01:50,079: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:01:50,079: download_one() 'Wallhaven.cc: Downloading an image, config: simple'
+INFO: 2025-06-28 21:01:50,079: download_one() 'Wallhaven.cc: Queue size: 10'
+INFO: 2025-06-28 21:01:50,079: download_one() 'Wallhaven.cc: Queue populated with 10 URLs'
+INFO: 2025-06-28 21:01:50,079: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/p8yq2p'
+INFO: 2025-06-28 21:01:50,079: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/p8/wallhaven-p8yq2p.jpg'
+INFO: 2025-06-28 21:01:50,210: save_locally() 'Origin URL: https://wallhaven.cc/w/p8yq2p'
+INFO: 2025-06-28 21:01:50,210: save_locally() 'Image URL: https://w.wallhaven.cc/full/p8/wallhaven-p8yq2p.jpg'
+INFO: 2025-06-28 21:01:50,210: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p8yq2p.jpg'
+INFO: 2025-06-28 21:01:50,361: save_locally() 'Download complete'
+INFO: 2025-06-28 21:01:50,361: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:01:50,363: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:01:50,363: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p8yq2p.jpg to unseen_downloads'
+INFO: 2025-06-28 21:04:51,364: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:04:51,364: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:04:51,364: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:04:51,364: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:04:51,364: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:04:51,364: download_one() 'Wallhaven.cc: Queue size: 6'
+INFO: 2025-06-28 21:04:51,364: download_one() 'Wallhaven.cc: Queue populated with 6 URLs'
+INFO: 2025-06-28 21:04:51,364: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/mdll31'
+INFO: 2025-06-28 21:04:51,364: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/md/wallhaven-mdll31.jpg'
+INFO: 2025-06-28 21:04:51,500: save_locally() 'Origin URL: https://wallhaven.cc/w/mdll31'
+INFO: 2025-06-28 21:04:51,500: save_locally() 'Image URL: https://w.wallhaven.cc/full/md/wallhaven-mdll31.jpg'
+INFO: 2025-06-28 21:04:51,500: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-mdll31.jpg'
+INFO: 2025-06-28 21:04:51,714: save_locally() 'Download complete'
+INFO: 2025-06-28 21:04:51,714: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:04:51,715: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:04:51,716: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-mdll31.jpg to unseen_downloads'
+INFO: 2025-06-28 21:04:52,716: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:04:52,717: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:04:52,717: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:04:52,717: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:04:52,717: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:04:52,717: download_one() 'Wallhaven.cc: Queue size: 5'
+INFO: 2025-06-28 21:04:52,717: download_one() 'Wallhaven.cc: Queue populated with 5 URLs'
+INFO: 2025-06-28 21:04:52,717: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/k9y2qq'
+INFO: 2025-06-28 21:04:52,717: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/k9/wallhaven-k9y2qq.jpg'
+INFO: 2025-06-28 21:04:52,847: save_locally() 'Origin URL: https://wallhaven.cc/w/k9y2qq'
+INFO: 2025-06-28 21:04:52,847: save_locally() 'Image URL: https://w.wallhaven.cc/full/k9/wallhaven-k9y2qq.jpg'
+INFO: 2025-06-28 21:04:52,847: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-k9y2qq.jpg'
+INFO: 2025-06-28 21:04:52,847: save_locally() 'File already exists, skip downloading'
+INFO: 2025-06-28 21:07:53,848: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:07:53,848: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:07:53,848: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:07:53,848: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:07:53,848: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:07:53,848: download_one() 'Wallhaven.cc: Queue size: 4'
+INFO: 2025-06-28 21:07:53,848: download_one() 'Wallhaven.cc: Queue populated with 4 URLs'
+INFO: 2025-06-28 21:07:53,848: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/xl89dd'
+INFO: 2025-06-28 21:07:53,848: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/xl/wallhaven-xl89dd.jpg'
+INFO: 2025-06-28 21:07:53,969: save_locally() 'Origin URL: https://wallhaven.cc/w/xl89dd'
+INFO: 2025-06-28 21:07:53,969: save_locally() 'Image URL: https://w.wallhaven.cc/full/xl/wallhaven-xl89dd.jpg'
+INFO: 2025-06-28 21:07:53,969: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-xl89dd.jpg'
+INFO: 2025-06-28 21:07:54,151: save_locally() 'Download complete'
+INFO: 2025-06-28 21:07:54,152: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:07:54,153: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:07:54,153: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-xl89dd.jpg to unseen_downloads'
+INFO: 2025-06-28 21:11:23,208: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2025-06-28 21:11:23,208: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-knm1yn.jpg'
+INFO: 2025-06-28 21:11:23,208: prepare_thread() 'Prepared buffer contains 74 images'
+INFO: 2025-06-28 21:11:23,209: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-knm1yn.jpg, time: 1751159483.209634'
+INFO: 2025-06-28 21:11:23,209: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-knm1yn.jpg -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-cb2acebd1e9a2306c0b6d925802f0f9c.jpg'
+INFO: 2025-06-28 21:11:23,389: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-knm1yn.jpg'
+INFO: 2025-06-28 21:11:23,391: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:11:25,209: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:11:25,209: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:11:25,209: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:11:25,209: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:11:25,209: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:11:25,210: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:11:25,210: download_one() 'Wallhaven.cc: Downloading an image, config: abstract'
+INFO: 2025-06-28 21:11:25,210: download_one() 'Wallhaven.cc: Queue size: 3'
+INFO: 2025-06-28 21:11:25,210: download_one() 'Wallhaven.cc: Queue populated with 3 URLs'
+INFO: 2025-06-28 21:11:25,210: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/eo5k6l'
+INFO: 2025-06-28 21:11:25,210: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/eo/wallhaven-eo5k6l.jpg'
+INFO: 2025-06-28 21:11:25,358: save_locally() 'Origin URL: https://wallhaven.cc/w/eo5k6l'
+INFO: 2025-06-28 21:11:25,358: save_locally() 'Image URL: https://w.wallhaven.cc/full/eo/wallhaven-eo5k6l.jpg'
+INFO: 2025-06-28 21:11:25,358: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-eo5k6l.jpg'
+INFO: 2025-06-28 21:11:25,549: save_locally() 'Download complete'
+INFO: 2025-06-28 21:11:25,550: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m9kx6m.png'
+INFO: 2025-06-28 21:11:25,551: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:11:25,555: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-eo5k6l.jpg to unseen_downloads'
+INFO: 2025-06-28 21:21:27,018: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2025-06-28 21:21:27,018: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-132yov.png'
+INFO: 2025-06-28 21:21:27,018: prepare_thread() 'Prepared buffer contains 73 images'
+INFO: 2025-06-28 21:21:27,019: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-132yov.png, time: 1751160087.0193758'
+INFO: 2025-06-28 21:21:27,019: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-132yov.png -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-286942c8c214b44b403c33a16c8d7d71.jpg'
+INFO: 2025-06-28 21:21:27,135: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-132yov.png'
+INFO: 2025-06-28 21:21:27,136: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:21:29,019: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:31:30,355: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2025-06-28 21:31:30,356: set_wallpaper() 'Calling set_wallpaper with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6dmr7q.png'
+INFO: 2025-06-28 21:31:30,356: prepare_thread() 'Prepared buffer contains 73 images'
+INFO: 2025-06-28 21:31:30,357: do_set_wp() 'Calling do_set_wp with /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6dmr7q.png, time: 1751160690.3573384'
+INFO: 2025-06-28 21:31:30,357: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6dmr7q.png -auto-orient /home/pd0rk1n/.config/variety/wallpaper/wallpaper-auto-rotated-bcbd1a43dbbc9b351b52c975a500df69.jpg'
+INFO: 2025-06-28 21:31:30,913: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6dmr7q.png'
+INFO: 2025-06-28 21:31:30,915: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:31:32,356: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:31:32,357: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:31:32,357: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:31:32,357: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-06-28 21:31:32,357: get_throttling() 'Wallhaven.cc serverside options: {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}'
+INFO: 2025-06-28 21:31:32,357: download_one() 'Wallhaven.cc: Downloading an image, config: minimal'
+INFO: 2025-06-28 21:31:32,357: download_one() 'Wallhaven.cc: Queue size: 11'
+INFO: 2025-06-28 21:31:32,357: download_one() 'Wallhaven.cc: Queue populated with 11 URLs'
+INFO: 2025-06-28 21:31:32,357: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/y8v9xd'
+INFO: 2025-06-28 21:31:32,357: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/y8/wallhaven-y8v9xd.png'
+INFO: 2025-06-28 21:31:32,358: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-06-28 21:31:32,509: save_locally() 'Origin URL: https://wallhaven.cc/w/y8v9xd'
+INFO: 2025-06-28 21:31:32,509: save_locally() 'Image URL: https://w.wallhaven.cc/full/y8/wallhaven-y8v9xd.png'
+INFO: 2025-06-28 21:31:32,509: save_locally() 'Local path: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-y8v9xd.png'
+INFO: 2025-06-28 21:31:32,877: save_locally() 'Download complete'
+INFO: 2025-06-28 21:31:32,878: update_indicator() 'Setting file info to: /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-132yov.png'
+INFO: 2025-06-28 21:31:32,879: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-06-28 21:31:32,879: download_one_from() 'Adding downloaded file /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-y8v9xd.png to unseen_downloads'
