@@ -1,4 +1,5 @@
 0
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-v9wjom.jpg
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6dmr7q.png
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-132yov.png
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-knm1yn.jpg
